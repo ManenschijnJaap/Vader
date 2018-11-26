@@ -1,0 +1,16 @@
+PODS:
+  - Vader (0.1.0)
+
+DEPENDENCIES:
+  - Vader (from `../`)
+
+EXTERNAL SOURCES:
+  Vader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Vader: eccd0a2343813db013781b2f475d2fc2042f93fc
+
+PODFILE CHECKSUM: ecc8c85926f60e8964aab1a62e912c047000f362
+
+COCOAPODS: 1.3.1

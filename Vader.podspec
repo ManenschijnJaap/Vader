@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Vader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Vader.'
+  s.summary          = 'Vader is a Swift Wrapper of SWAPI the Star Wars API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Vader is perfect for beginners to use an easy to use API wrapper to build simple applications, and also great for more advanced Swift engineers to see an advanced usage of generics.
                        DESC
 
-  s.homepage         = 'https://github.com/jamesrochabrun@gmail.com/Vader'
+  s.homepage         = 'https://github.com/jamesrochabrun/Vader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jamesrochabrun@gmail.com' => 'jamesrochabrun@gmail.com' }
-  s.source           = { :git => 'https://github.com/jamesrochabrun@gmail.com/Vader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jamesrochabrun.com/Vader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

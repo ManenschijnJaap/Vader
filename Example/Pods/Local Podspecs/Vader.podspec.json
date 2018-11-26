@@ -1,0 +1,22 @@
+{
+  "name": "Vader",
+  "version": "0.1.0",
+  "summary": "A short description of Vader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jamesrochabrun@gmail.com/Vader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jamesrochabrun@gmail.com": "jamesrochabrun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jamesrochabrun@gmail.com/Vader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Vader/Classes/**/*"
+}
