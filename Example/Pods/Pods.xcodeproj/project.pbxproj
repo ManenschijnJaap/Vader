@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094CF1F521ABC73000AE6C2A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F421ABC73000AE6C2A /* Endpoint.swift */; };
+		094CF1F721ABC74100AE6C2A /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F621ABC74100AE6C2A /* Resource.swift */; };
+		094CF1F921ABC75800AE6C2A /* GenericAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F821ABC75800AE6C2A /* GenericAPI.swift */; };
+		094CF1FB21ABC76D00AE6C2A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FA21ABC76D00AE6C2A /* APIError.swift */; };
+		094CF1FD21ABC77B00AE6C2A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FC21ABC77B00AE6C2A /* Result.swift */; };
+		094CF1FF21ABC78900AE6C2A /* Vader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FE21ABC78900AE6C2A /* Vader.swift */; };
+		094CF20121ABC79800AE6C2A /* VaderResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20021ABC79800AE6C2A /* VaderResource.swift */; };
+		094CF20321ABC7AD00AE6C2A /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20221ABC7AD00AE6C2A /* People.swift */; };
+		094CF20521ABC7C400AE6C2A /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20421ABC7C400AE6C2A /* Film.swift */; };
+		094CF20721ABC7D300AE6C2A /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20621ABC7D300AE6C2A /* Starship.swift */; };
+		094CF20921ABC7E200AE6C2A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20821ABC7E200AE6C2A /* Vehicle.swift */; };
+		094CF20B21ABC7F200AE6C2A /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20A21ABC7F200AE6C2A /* Species.swift */; };
+		094CF20D21ABC80100AE6C2A /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20C21ABC80100AE6C2A /* Planet.swift */; };
 		0FB848106585D5EB3A83D6C3D52BC6B4 /* Pods-Vader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A59D626FC9E4821C3662F56D813F983 /* Pods-Vader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BBEBC07A85354ECC65C85D8EA163D64 /* Pods-Vader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1F5137878CD86EB10A179347F7C807 /* Pods-Vader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A78D709CB58BF00B46BD7A9E1406722 /* Pods-Vader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C67787298AACE347156159352CBDC9 /* Pods-Vader_Example-dummy.m */; };
 		55E4ED8FC99826E39474BA49B9F6FA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5C43D4B6A9E73C4F3BA67D092FA41103 /* Vader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA259B80B91C5DE4DE8879054014F91D /* Vader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62B58B2EBED542DC89BDF1E94F038FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		92C85B5711EE264FD1580CE6A2F7C90D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F3092F8F633A2683F2AE5F8A62B5E6 /* ReplaceMe.swift */; };
 		A23640A413C8D8E2FC73243E302CB8B3 /* Pods-Vader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3529FEAAADFA04A87C0A365BED369D /* Pods-Vader_Tests-dummy.m */; };
 		B3471BDDE55F9A433960B0E4B507ADB8 /* Vader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C340F38D6232608E03C475C1BE09B /* Vader-dummy.m */; };
 		DE1B013C5AD5FC4169997104DEA31F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -31,9 +43,22 @@
 
 /* Begin PBXFileReference section */
 		08875E4D626442389FBB82BE646A818F /* Pods-Vader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		094CF1F421ABC73000AE6C2A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		094CF1F621ABC74100AE6C2A /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		094CF1F821ABC75800AE6C2A /* GenericAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAPI.swift; sourceTree = "<group>"; };
+		094CF1FA21ABC76D00AE6C2A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		094CF1FC21ABC77B00AE6C2A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		094CF1FE21ABC78900AE6C2A /* Vader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vader.swift; sourceTree = "<group>"; };
+		094CF20021ABC79800AE6C2A /* VaderResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaderResource.swift; sourceTree = "<group>"; };
+		094CF20221ABC7AD00AE6C2A /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		094CF20421ABC7C400AE6C2A /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		094CF20621ABC7D300AE6C2A /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		094CF20821ABC7E200AE6C2A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		094CF20A21ABC7F200AE6C2A /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		094CF20C21ABC80100AE6C2A /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		0A59D626FC9E4821C3662F56D813F983 /* Pods-Vader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		18427A8415BC3EE8D0297CD0A4DE76B1 /* Pods-Vader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vader_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		197820628B10B7322778776B525B2ECC /* Vader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Vader.framework; path = Vader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		197820628B10B7322778776B525B2ECC /* Vader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Vader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C472EE7E1EF58A753832FB458111C62 /* Vader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vader-prefix.pch"; sourceTree = "<group>"; };
 		3E1869D7A84153906BC345C127C5BC7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0CB9C006902342DE3DA8953AE39ABC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,27 +66,26 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		833B353058FDD60907A242A80FE6A67A /* Pods-Vader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B1A22BFD665B7C49ACD40E53704CEBD /* Pods-Vader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98A86237490FA2902E485D2188F2BCA7 /* Pods_Vader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vader_Tests.framework; path = "Pods-Vader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A86237490FA2902E485D2188F2BCA7 /* Pods_Vader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C37C2898AC8218451C48B0895182067 /* Pods-Vader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vader_Example-resources.sh"; sourceTree = "<group>"; };
 		9C4C340F38D6232608E03C475C1BE09B /* Vader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vader-dummy.m"; sourceTree = "<group>"; };
 		A38D65ECD4DCF93E8BCC97CBFA33C4B1 /* Vader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vader.xcconfig; sourceTree = "<group>"; };
-		AD4527EA7C97F415E585306ADDDB272B /* Vader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Vader.modulemap; sourceTree = "<group>"; };
-		B2E36D1181A8974B6358AEBEF6D8474E /* Pods-Vader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Vader_Example.modulemap"; sourceTree = "<group>"; };
+		AD4527EA7C97F415E585306ADDDB272B /* Vader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Vader.modulemap; sourceTree = "<group>"; };
+		B2E36D1181A8974B6358AEBEF6D8474E /* Pods-Vader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Vader_Example.modulemap"; sourceTree = "<group>"; };
 		B5C67787298AACE347156159352CBDC9 /* Pods-Vader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vader_Example-dummy.m"; sourceTree = "<group>"; };
 		BE1F5137878CD86EB10A179347F7C807 /* Pods-Vader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vader_Example-umbrella.h"; sourceTree = "<group>"; };
 		CA259B80B91C5DE4DE8879054014F91D /* Vader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vader-umbrella.h"; sourceTree = "<group>"; };
 		CC914E76CEA16A1A77225092815C5270 /* Pods-Vader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vader_Tests-resources.sh"; sourceTree = "<group>"; };
-		D066C10F03D1F5EF1F064DAFC1F562C5 /* Pods_Vader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vader_Example.framework; path = "Pods-Vader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D066C10F03D1F5EF1F064DAFC1F562C5 /* Pods_Vader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC2CE960671FED78592245B9C37CFC /* Pods-Vader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1E7DBF7411DFEE73B57DF8506FD11EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2215E614AF5475AC68A7458646B7116 /* Pods-Vader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6D11B3815CB6B3EC3224BE5D9E833BA /* Pods-Vader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9C125B634EAEDCAD32AA08D4BC520A8 /* Pods-Vader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE9E7ACFB15A721D74A0E9FBF9F21605 /* Pods-Vader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6F3092F8F633A2683F2AE5F8A62B5E6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Vader/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		EAFED1997B01FA7CD73CE04BC10FBF97 /* Pods-Vader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBED596634A3E9030EFDAE87DA67D2DA /* Pods-Vader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Vader_Tests.modulemap"; sourceTree = "<group>"; };
+		EBED596634A3E9030EFDAE87DA67D2DA /* Pods-Vader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Vader_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094CF1F121ABC70F00AE6C2A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				094CF1F421ABC73000AE6C2A /* Endpoint.swift */,
+				094CF1F621ABC74100AE6C2A /* Resource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		094CF1F221ABC71500AE6C2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				094CF20221ABC7AD00AE6C2A /* People.swift */,
+				094CF20421ABC7C400AE6C2A /* Film.swift */,
+				094CF20621ABC7D300AE6C2A /* Starship.swift */,
+				094CF20821ABC7E200AE6C2A /* Vehicle.swift */,
+				094CF20A21ABC7F200AE6C2A /* Species.swift */,
+				094CF20C21ABC80100AE6C2A /* Planet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		094CF1F321ABC71F00AE6C2A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				094CF1F821ABC75800AE6C2A /* GenericAPI.swift */,
+				094CF1FA21ABC76D00AE6C2A /* APIError.swift */,
+				094CF1FC21ABC77B00AE6C2A /* Result.swift */,
+				094CF1FE21ABC78900AE6C2A /* Vader.swift */,
+				094CF20021ABC79800AE6C2A /* VaderResource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		37482BF15CFCC905C0FD8165BFE157D4 /* Pods-Vader_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +239,9 @@
 		CF876F307B1A2F63960F23205D745300 /* Vader */ = {
 			isa = PBXGroup;
 			children = (
-				E6F3092F8F633A2683F2AE5F8A62B5E6 /* ReplaceMe.swift */,
+				094CF1F321ABC71F00AE6C2A /* Networking */,
+				094CF1F221ABC71500AE6C2A /* Models */,
+				094CF1F121ABC70F00AE6C2A /* Protocols */,
 				42C8BED764331C868A50469B3EBD3547 /* Support Files */,
 			);
 			name = Vader;
@@ -296,6 +356,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					7AE6CFDF2F67FD7D4D6994F23E45E11F = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C85B5711EE264FD1580CE6A2F7C90D /* ReplaceMe.swift in Sources */,
 				B3471BDDE55F9A433960B0E4B507ADB8 /* Vader-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +402,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094CF20921ABC7E200AE6C2A /* Vehicle.swift in Sources */,
+				094CF20121ABC79800AE6C2A /* VaderResource.swift in Sources */,
+				094CF20721ABC7D300AE6C2A /* Starship.swift in Sources */,
+				094CF1FF21ABC78900AE6C2A /* Vader.swift in Sources */,
+				094CF1FD21ABC77B00AE6C2A /* Result.swift in Sources */,
+				094CF1F721ABC74100AE6C2A /* Resource.swift in Sources */,
+				094CF20B21ABC7F200AE6C2A /* Species.swift in Sources */,
+				094CF20321ABC7AD00AE6C2A /* People.swift in Sources */,
+				094CF20521ABC7C400AE6C2A /* Film.swift in Sources */,
+				094CF1F521ABC73000AE6C2A /* Endpoint.swift in Sources */,
+				094CF1F921ABC75800AE6C2A /* GenericAPI.swift in Sources */,
+				094CF20D21ABC80100AE6C2A /* Planet.swift in Sources */,
+				094CF1FB21ABC76D00AE6C2A /* APIError.swift in Sources */,
 				4A78D709CB58BF00B46BD7A9E1406722 /* Pods-Vader_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2215E614AF5475AC68A7458646B7116 /* Pods-Vader_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -593,6 +671,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -604,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6D11B3815CB6B3EC3224BE5D9E833BA /* Pods-Vader_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,6 +708,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
