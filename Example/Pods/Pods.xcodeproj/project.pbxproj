@@ -20,6 +20,19 @@
 		094CF20921ABC7E200AE6C2A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20821ABC7E200AE6C2A /* Vehicle.swift */; };
 		094CF20B21ABC7F200AE6C2A /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20A21ABC7F200AE6C2A /* Species.swift */; };
 		094CF20D21ABC80100AE6C2A /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20C21ABC80100AE6C2A /* Planet.swift */; };
+		0966A73F21C73D3A00FE81EB /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20221ABC7AD00AE6C2A /* People.swift */; };
+		0966A74121C73D8F00FE81EB /* GenericAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F821ABC75800AE6C2A /* GenericAPI.swift */; };
+		0966A74221C73D9200FE81EB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FA21ABC76D00AE6C2A /* APIError.swift */; };
+		0966A74321C73D9400FE81EB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FC21ABC77B00AE6C2A /* Result.swift */; };
+		0966A74421C73D9800FE81EB /* VaderResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20021ABC79800AE6C2A /* VaderResource.swift */; };
+		0966A74521C73D9C00FE81EB /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20421ABC7C400AE6C2A /* Film.swift */; };
+		0966A74621C73D9E00FE81EB /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20621ABC7D300AE6C2A /* Starship.swift */; };
+		0966A74721C73DA000FE81EB /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20821ABC7E200AE6C2A /* Vehicle.swift */; };
+		0966A74821C73DA200FE81EB /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20A21ABC7F200AE6C2A /* Species.swift */; };
+		0966A74921C73DA400FE81EB /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF20C21ABC80100AE6C2A /* Planet.swift */; };
+		0966A74A21C73DAB00FE81EB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F421ABC73000AE6C2A /* Endpoint.swift */; };
+		0966A74B21C73DAE00FE81EB /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1F621ABC74100AE6C2A /* Resource.swift */; };
+		0966A74C21C73F5500FE81EB /* Vader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CF1FE21ABC78900AE6C2A /* Vader.swift */; };
 		0FB848106585D5EB3A83D6C3D52BC6B4 /* Pods-Vader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A59D626FC9E4821C3662F56D813F983 /* Pods-Vader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BBEBC07A85354ECC65C85D8EA163D64 /* Pods-Vader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1F5137878CD86EB10A179347F7C807 /* Pods-Vader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A78D709CB58BF00B46BD7A9E1406722 /* Pods-Vader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C67787298AACE347156159352CBDC9 /* Pods-Vader_Example-dummy.m */; };
@@ -394,7 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0966A74C21C73F5500FE81EB /* Vader.swift in Sources */,
+				0966A74621C73D9E00FE81EB /* Starship.swift in Sources */,
+				0966A74421C73D9800FE81EB /* VaderResource.swift in Sources */,
+				0966A74321C73D9400FE81EB /* Result.swift in Sources */,
+				0966A74A21C73DAB00FE81EB /* Endpoint.swift in Sources */,
+				0966A74921C73DA400FE81EB /* Planet.swift in Sources */,
+				0966A73F21C73D3A00FE81EB /* People.swift in Sources */,
 				B3471BDDE55F9A433960B0E4B507ADB8 /* Vader-dummy.m in Sources */,
+				0966A74121C73D8F00FE81EB /* GenericAPI.swift in Sources */,
+				0966A74521C73D9C00FE81EB /* Film.swift in Sources */,
+				0966A74221C73D9200FE81EB /* APIError.swift in Sources */,
+				0966A74821C73DA200FE81EB /* Species.swift in Sources */,
+				0966A74721C73DA000FE81EB /* Vehicle.swift in Sources */,
+				0966A74B21C73DAE00FE81EB /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
