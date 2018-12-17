@@ -1,3 +1,4 @@
+
 #
 #  Be sure to run `pod spec lint Vader.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -16,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Vader"
-  s.version      = "0.1.0"
+  s.version      = "1.0"
   s.summary      = "Swift Wrapper SWAPI API."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +78,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DevelopmentPods", "DevelopmentPods/**/*.{swift, h, m}"
+  s.source_files  = '*'
 
   # s.exclude_files = "Classes/Exclude"
 
@@ -85,3 +86,4 @@ Pod::Spec.new do |s|
 
 
 end
+
