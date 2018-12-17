@@ -9,14 +9,14 @@ import Foundation
 
 public struct Resources<T: Decodable>: Resource {
     
-    var count: Int?
-    var next: String?
-    var previous: String?
-    var results: [T]?
+    public var count: Int?
+    public var next: String?
+    public var previous: String?
+    public var results: [T]?
 }
 
 
-protocol Resource: Decodable {
+public protocol Resource: Decodable {
     
     associatedtype T = Decodable
     var count: Int? { get }

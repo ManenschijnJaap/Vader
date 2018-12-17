@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Vader()
         /*
          Resources can be of any type for example:
          - People
@@ -21,7 +22,7 @@ class ViewController: UIViewController {
          - Starship..
          Get a feed of Resources with this function.
          */
- 
+        
         Vader().get(Resources<People>.self) {
             self.handleResult($0)
         }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Vader: GenericAPI {
+public class Vader: GenericAPI {
     
     var session: URLSession
     
@@ -41,3 +41,4 @@ class Vader: GenericAPI {
         self.fetch(with: request, completion: completion)
     }
 }
+
