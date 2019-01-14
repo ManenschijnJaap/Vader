@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Starship: Decodable {
-    
+    var id: String?
     var name: String?
     var model: String?
     var startshipClass: String?

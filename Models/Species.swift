@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Species: Decodable {
-    
+    var id: String?
     var name: String?
     var classification: String?
     var designation: String?

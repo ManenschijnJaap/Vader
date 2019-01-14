@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Vehicle: Decodable {
-    
+    var id: String?
     var name: String?
     var model: String?
     var vehicleClass: String?

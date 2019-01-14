@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Planet: Decodable {
-    
+    var id: String?
     var name: String?
     var diameter: String?
     var rotationPeriod: String?

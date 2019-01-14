@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Film: Decodable {
-    
+    var id: String?
     var title: String?
     var episodeId: Int?
     var openingCrawl: String?

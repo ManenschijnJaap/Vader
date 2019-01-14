@@ -8,7 +8,7 @@
 import Foundation
 
 public struct People: Decodable {
-    
+    var id: String?
     var name: String?
     var birthYear: String?
     var eyeColor: String?
